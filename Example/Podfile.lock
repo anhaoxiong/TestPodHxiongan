@@ -1,0 +1,18 @@
+PODS:
+  - hxionganTestFramework (1.0.0):
+    - hxionganTestFramework/Normal (= 1.0.0)
+  - hxionganTestFramework/Normal (1.0.0)
+
+DEPENDENCIES:
+  - hxionganTestFramework (from `../`)
+
+EXTERNAL SOURCES:
+  hxionganTestFramework:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  hxionganTestFramework: 9ff2705f7b0becda3dc8195fdacba7518c8f67d8
+
+PODFILE CHECKSUM: 400c1a50cfc50f3f82f266b6593878b74348aa61
+
+COCOAPODS: 1.5.3
