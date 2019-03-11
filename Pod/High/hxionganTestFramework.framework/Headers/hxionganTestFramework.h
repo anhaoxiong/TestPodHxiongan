@@ -17,6 +17,6 @@ FOUNDATION_EXPORT const unsigned char hxionganTestFrameworkVersionString[];
 // In this header, you should import all the public headers of your framework using statements like #import <hxionganTestFramework/PublicHeader.h>
 
 
-#import <hxionganTestFramework/HighLevelObject.h>
-#import <hxionganTestFramework/MidLevelObject.h>
 #import <hxionganTestFramework/NormalLevelObject.h>
+#import <hxionganTestFramework/MidLevelObject.h>
+#import <hxionganTestFramework/HighLevelObject.h>

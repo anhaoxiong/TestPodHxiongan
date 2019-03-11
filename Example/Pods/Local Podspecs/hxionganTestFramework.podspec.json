@@ -1,6 +1,6 @@
 {
   "name": "hxionganTestFramework",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "summary": "It is a test framework.",
   "homepage": "https://github.com/anhaoxiong/hxionganTestFramework",
   "license": "Apache License 2.0",
@@ -8,7 +8,7 @@
     "anhaoxiong": "hxiongan@gmail.com"
   },
   "source": {
-    "http": "https://sdk-release.qnsdk.com/hxionganTestFramework-v1.0.0.zip"
+    "http": "https://sdk-release.qnsdk.com/hxionganTestFramework-v1.0.1.zip"
   },
   "platforms": {
     "ios": "8.0"

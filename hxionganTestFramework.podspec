@@ -9,12 +9,12 @@
 Pod::Spec.new do |s|
 
 s.name             = "hxionganTestFramework"
-s.version          = "1.0.0"
+s.version          = "1.0.1"
 s.summary          = "It is a test framework."
 s.homepage         = "https://github.com/anhaoxiong/hxionganTestFramework"
 s.license          = "Apache License 2.0"
 s.author           = { "anhaoxiong" => "hxiongan@gmail.com" }
-s.source           = { :http => "https://sdk-release.qnsdk.com/hxionganTestFramework-v1.0.0.zip" }
+s.source           = { :http => "https://sdk-release.qnsdk.com/hxionganTestFramework-v1.0.1.zip" }
 
 s.platform     = :ios
 s.ios.deployment_target = '8.0'
