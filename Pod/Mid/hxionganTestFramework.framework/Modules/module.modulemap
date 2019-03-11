@@ -1,0 +1,6 @@
+framework module hxionganTestFramework {
+  umbrella header "hxionganTestFramework.h"
+
+  export *
+  module * { export * }
+}
