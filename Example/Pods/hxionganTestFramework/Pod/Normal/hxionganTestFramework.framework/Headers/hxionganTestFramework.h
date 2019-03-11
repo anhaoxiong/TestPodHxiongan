@@ -18,5 +18,3 @@ FOUNDATION_EXPORT const unsigned char hxionganTestFrameworkVersionString[];
 
 
 #import <hxionganTestFramework/NormalLevelObject.h>
-#import <hxionganTestFramework/MidLevelObject.h>
-#import <hxionganTestFramework/HighLevelObject.h>

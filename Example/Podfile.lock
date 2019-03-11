@@ -1,7 +1,7 @@
 PODS:
-  - hxionganTestFramework (1.0.1):
-    - hxionganTestFramework/Normal (= 1.0.1)
-  - hxionganTestFramework/Normal (1.0.1)
+  - hxionganTestFramework (1.0.2):
+    - hxionganTestFramework/Normal (= 1.0.2)
+  - hxionganTestFramework/Normal (1.0.2)
 
 DEPENDENCIES:
   - hxionganTestFramework (from `../`)
@@ -11,7 +11,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  hxionganTestFramework: a6dcde4393da2391594b1644dc671fa3e6160d1a
+  hxionganTestFramework: 12a64e8939b8d16f9413c79831cce460ef10c360
 
 PODFILE CHECKSUM: 400c1a50cfc50f3f82f266b6593878b74348aa61
 

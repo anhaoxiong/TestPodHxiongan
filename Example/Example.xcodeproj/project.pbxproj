@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BC264E7F22362B1F00B5D1FE /* hxionganTestFramework-high.podspec in Resources */ = {isa = PBXBuildFile; fileRef = BC264E7D22362B1E00B5D1FE /* hxionganTestFramework-high.podspec */; };
+		BC264E8022362B1F00B5D1FE /* hxionganTestFramework-mid.podspec in Resources */ = {isa = PBXBuildFile; fileRef = BC264E7E22362B1E00B5D1FE /* hxionganTestFramework-mid.podspec */; };
 		BC4802692235F8A600E88CB6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BC4802682235F8A600E88CB6 /* AppDelegate.m */; };
 		BC48026C2235F8A600E88CB6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC48026B2235F8A600E88CB6 /* ViewController.m */; };
 		BC48026F2235F8A600E88CB6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC48026D2235F8A600E88CB6 /* Main.storyboard */; };
@@ -20,6 +22,8 @@
 /* Begin PBXFileReference section */
 		2AF3CBA7E7785F56254B0FC5 /* libPods-Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFE062C41C65AD65DC7F492E /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Example/Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
+		BC264E7D22362B1E00B5D1FE /* hxionganTestFramework-high.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "hxionganTestFramework-high.podspec"; path = "../hxionganTestFramework-high.podspec"; sourceTree = "<group>"; };
+		BC264E7E22362B1E00B5D1FE /* hxionganTestFramework-mid.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "hxionganTestFramework-mid.podspec"; path = "../hxionganTestFramework-mid.podspec"; sourceTree = "<group>"; };
 		BC4802642235F8A600E88CB6 /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC4802672235F8A600E88CB6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BC4802682235F8A600E88CB6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -67,6 +71,8 @@
 			isa = PBXGroup;
 			children = (
 				BC48029E2236060300E88CB6 /* hxionganTestFramework.podspec */,
+				BC264E7D22362B1E00B5D1FE /* hxionganTestFramework-high.podspec */,
+				BC264E7E22362B1E00B5D1FE /* hxionganTestFramework-mid.podspec */,
 				BC4802662235F8A600E88CB6 /* Example */,
 				BC4802652235F8A600E88CB6 /* Products */,
 				63A0545CFC96C5B7A76F7BC3 /* Pods */,
@@ -156,7 +162,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC264E8022362B1F00B5D1FE /* hxionganTestFramework-mid.podspec in Resources */,
 				BC4802742235F8A800E88CB6 /* LaunchScreen.storyboard in Resources */,
+				BC264E7F22362B1F00B5D1FE /* hxionganTestFramework-high.podspec in Resources */,
 				BC4802712235F8A800E88CB6 /* Assets.xcassets in Resources */,
 				BC48026F2235F8A600E88CB6 /* Main.storyboard in Resources */,
 				BC48029F2236060300E88CB6 /* hxionganTestFramework.podspec in Resources */,

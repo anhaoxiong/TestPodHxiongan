@@ -14,7 +14,7 @@ s.summary          = "It is a test framework."
 s.homepage         = "https://github.com/anhaoxiong/hxionganTestFramework"
 s.license          = "Apache License 2.0"
 s.author           = { "anhaoxiong" => "hxiongan@gmail.com" }
-s.source           = { :http => "https://sdk-release.qnsdk.com/hxionganTestFramework-normal-v1.0.2.zip" }
+s.source           = { :http => "https://sdk-release.qnsdk.com/hxionganTestFramework-mid-v1.0.2.zip" }
 
 s.platform     = :ios
 s.ios.deployment_target = '8.0'
@@ -23,8 +23,8 @@ s.requires_arc = true
 
 s.frameworks = "Foundation"
 
-s.subspec "Normal" do |ss1|
-    ss1.vendored_framework = "Pod/Normal/hxionganTestFramework.framework"
+s.subspec "Mid" do |ss1|
+    ss1.vendored_framework = "Pod/Mid/hxionganTestFramework.framework"
 end
 
 

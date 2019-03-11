@@ -13,16 +13,15 @@
 /* Begin PBXFileReference section */
 		0AECF4A22395C2FDE55673592687C1AB /* Pods-Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		2C83BF6702F0C48A8D1C5A59935A2117 /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
-		47C7231C3A659B3024A82BA9CFDB2866 /* hxionganTestFramework.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = hxionganTestFramework.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		3436B22B45C13231D61960B220825379 /* hxionganTestFramework.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = hxionganTestFramework.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		50AD3D141429DD05388A5766963BC96A /* hxionganTestFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = hxionganTestFramework.framework; path = Pod/Normal/hxionganTestFramework.framework; sourceTree = "<group>"; };
 		5AC126EEC71A1BC407FE1D9DB3984EF4 /* Pods-Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Example-frameworks.sh"; sourceTree = "<group>"; };
 		5E15D590B55F6691EDEDA51338F8097A /* libPods-Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-Example.a"; path = "libPods-Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		74D16BBB58D3D00FC3350B65437D5E18 /* Pods-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.release.xcconfig"; sourceTree = "<group>"; };
 		7A17B2D7486AA2A9CFA43FE47668BC7C /* Pods-Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		853BB94042284CB4296D1239BE467FB0 /* Pods-Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Example-dummy.m"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		AB69104C35A13660AC1D19CA22984F77 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		C6E3D4A869A4034AC4D2D2194B92A7A0 /* Pods-Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Example-resources.sh"; sourceTree = "<group>"; };
-		CE5D9FDBA0C0ABEF46AC8C6758BE7ECD /* hxionganTestFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = hxionganTestFramework.framework; path = Pod/Normal/hxionganTestFramework.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,22 +42,20 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		38A5F94B9E1D5F60A102572AE5A4D9B8 /* Normal */ = {
+			isa = PBXGroup;
+			children = (
+				8D39147EDB41236EA5451E24FB5128E7 /* Frameworks */,
+			);
+			name = Normal;
+			sourceTree = "<group>";
+		};
 		48F16E9A6EBE32A05E45E19DDB362FAA /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				6383476D07E0B66106C5F6F8E072D231 /* hxionganTestFramework */,
+				76A1BEF5C6F8CED84DB2BB42926DE252 /* hxionganTestFramework */,
 			);
 			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		6383476D07E0B66106C5F6F8E072D231 /* hxionganTestFramework */ = {
-			isa = PBXGroup;
-			children = (
-				DEB77CDCE563C9BD04CA10D731A86632 /* Normal */,
-				717D7B7730E72004C4FC14B60D9FF97B /* Pod */,
-			);
-			name = hxionganTestFramework;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		6C49482DA5D4F97709CE2787E2211CE4 /* Targets Support Files */ = {
@@ -84,13 +81,14 @@
 			path = "Target Support Files/Pods-Example";
 			sourceTree = "<group>";
 		};
-		717D7B7730E72004C4FC14B60D9FF97B /* Pod */ = {
+		76A1BEF5C6F8CED84DB2BB42926DE252 /* hxionganTestFramework */ = {
 			isa = PBXGroup;
 			children = (
-				47C7231C3A659B3024A82BA9CFDB2866 /* hxionganTestFramework.podspec */,
-				AB69104C35A13660AC1D19CA22984F77 /* README.md */,
+				38A5F94B9E1D5F60A102572AE5A4D9B8 /* Normal */,
+				8BD0E74C068A40E98030A07654F19802 /* Pod */,
 			);
-			name = Pod;
+			name = hxionganTestFramework;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -104,20 +102,20 @@
 			);
 			sourceTree = "<group>";
 		};
-		C31021056F0CABE2FFD3A9F08D986229 /* Frameworks */ = {
+		8BD0E74C068A40E98030A07654F19802 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				CE5D9FDBA0C0ABEF46AC8C6758BE7ECD /* hxionganTestFramework.framework */,
+				3436B22B45C13231D61960B220825379 /* hxionganTestFramework.podspec */,
 			);
-			name = Frameworks;
+			name = Pod;
 			sourceTree = "<group>";
 		};
-		DEB77CDCE563C9BD04CA10D731A86632 /* Normal */ = {
+		8D39147EDB41236EA5451E24FB5128E7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C31021056F0CABE2FFD3A9F08D986229 /* Frameworks */,
+				50AD3D141429DD05388A5766963BC96A /* hxionganTestFramework.framework */,
 			);
-			name = Normal;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		E9FF6C77EF6D53C41253D64223421BB1 /* Products */ = {
